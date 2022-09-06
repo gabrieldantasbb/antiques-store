@@ -17,25 +17,27 @@ import vase from "./vase.svg";
 import video from "./video.svg";
 import watches from "./watches.svg";
 import weapons from "./weapons.svg";
+import play from "./play.png";
 
 export {
-angel,
-arshid,
-basevase,
-building,
-carroca,
-chifres,
-foice,
-furniture,
-keep,
-people,
-radio,
-send,
-skulls,
-statues,
-trofy,
-vase,
-video,
-watches,
-weapons,
-}
+  play,
+  angel,
+  arshid,
+  basevase,
+  building,
+  carroca,
+  chifres,
+  foice,
+  furniture,
+  keep,
+  people,
+  radio,
+  send,
+  skulls,
+  statues,
+  trofy,
+  vase,
+  video,
+  watches,
+  weapons,
+};

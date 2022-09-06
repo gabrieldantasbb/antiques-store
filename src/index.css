@@ -17,7 +17,14 @@
 * {
     scroll-behavior: smooth;
   }
+  .title-blue {
+    color: #263FA4;
+  }
 
   .bg-blue {
     background-color: #132742;
+  }
+
+  .bg-orange {
+    background: #FF7B29;
   }
