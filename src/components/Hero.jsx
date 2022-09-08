@@ -1,6 +1,7 @@
 import React from "react";
 import styles, { layout } from "../style.js";
 import { play, vase } from "../assets";
+import { stats } from "../constants/index.js";
 
 const Hero = () => (
   <section
@@ -20,11 +21,23 @@ const Hero = () => (
             Discover Now
           </button>
         </div>
-        <img src={play} alt="play"  />
+        <img src={play} alt="play" />
       </div>
     </div>
-    <div><img src={vase}/></div>
-    <div>stats</div>
+    <div>
+      <img src={vase} />
+    </div>
+    <div className="flex md:flex-col md:justify-center">
+      {stats.map((stats, index) => (
+        <div key={index} className={`flex ${ index === stats.length - 1 ? "py-0" : "py-3"}`}>
+          <img src={stats.icon} alt={stats.id} className="h-[28px] w-[28px] m-[20px] mr-5" />
+          <div>
+            <div className="font-poppins font-bold md:text-[30px] text-[24px] leading-7 py-2">{stats.value}</div>
+            <div className="font-poppins font-regular md:text-[14px] text-[12px] leading-4 text-gray">{stats.title}</div>
+          </div>
+        </div>
+      ))}
+    </div>
   </section>
 );
 
