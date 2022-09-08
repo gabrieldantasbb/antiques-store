@@ -18,6 +18,9 @@ import video from "./video.svg";
 import watches from "./watches.svg";
 import weapons from "./weapons.svg";
 import play from "./play.png";
+import menu from "./menu.svg";
+import close from "./close.svg"
+import search  from "./search.svg";
 
 export {
   play,
@@ -40,4 +43,7 @@ export {
   video,
   watches,
   weapons,
+  menu,
+  close,
+  search,
 };

@@ -10,6 +10,7 @@ module.exports = {
         lightblue: "#31C3E0",
         darkblue: "#263FA4",
         orange: "#FF7B29",
+        denim:"#132742",
         gray: "#676A6C",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
