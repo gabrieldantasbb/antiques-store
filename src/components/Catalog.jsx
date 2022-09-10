@@ -31,14 +31,14 @@ const Catalog = () => (
               {prod.year} | {prod.category}
             </div>
           </div>
-          <div className="flex w-full justify-between pt-[20px]">
-            <div className="font-poppins font-bold text-[24px] leading-10">
+          <div className="flex flex-col md:flex-row w-full justify-between pt-[20px]">
+            <div className="font-poppins font-bold text-[18px] leading-10 mr-4 w-1/2 whitespace-nowrap">
               R$ {prod.value}
             </div>
-            <div>
+            <div className="w-1/2">
               <button
                 type="button"
-                className={`py-1 px-6 font-poppins font-medium text-[12px] text-lightblue outline rounded-[8px]`}
+                className={`py-1 px-6 font-poppins font-medium text-[11px] md:text-[12px] text-lightblue outline rounded-[8px]`}
               >
                 View Details
               </button>
