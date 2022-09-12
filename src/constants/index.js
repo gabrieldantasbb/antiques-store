@@ -46,7 +46,7 @@ export const stats = [
 
 export const product = [
     {
-        id: "foice",
+        id: "foice1",
         title: "Yet bed any for travelling",
         year: "1192",
         category: "Weapons",

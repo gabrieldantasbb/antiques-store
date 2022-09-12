@@ -30,24 +30,24 @@ const Hero = () => (
         <img src={vase} className="md:pr-[70px]" />
       </div>
       <div className="flex pt-5 md:pt-0 md:flex-col justify-center">
-        {stats.map((stats, index) => (
+        {stats.map((stat, index) => (
           <div
-            key={index}
+            key={stat.id}
             className={`flex w-full ${
-              index === stats.length - 1 ? "py-0" : "py-3"
+              index === stat.length - 1 ? "py-0" : "py-3"
             }`}
           >
             <img
-              src={stats.icon}
-              alt={stats.id}
+              src={stat.icon}
+              alt={stat.id}
               className="h-[28px] w-[28px]  m-2 md:m-[20px] mr-3 md:mr-5"
             />
             <div className="w-[100%]">
               <div className="font-poppins font-bold md:text-[30px] text-[18px] leading-7 md:py-2">
-                {stats.value}
+                {stat.value}
               </div>
               <div className="font-poppins font-regular md:text-[14px] text-[12px] leading-4 text-gray">
-                {stats.title}
+                {stat.title}
               </div>
             </div>
           </div>
@@ -55,10 +55,10 @@ const Hero = () => (
       </div>
     </div>
 
-    <div className="hidden md:flex md:flex-row flex-col md:py-[25px] justify-center">
-      <ul className="flex flex-center w-full">
+    <div className="hidden md:flex md:py-[25px]">
+      <ul className="flex w-full justify-around">
         {searches.map((srch, index) => (
-          <li className="mr-[185px]">
+          <li key={srch.id} className="">
             <div className="font-poppins font-medium md:text-[16px] text-[14px] text-denim">
               {srch.id}
             </div>
@@ -67,9 +67,8 @@ const Hero = () => (
             </div>
           </li>
         ))}
-      </ul>
-      <div className="flex">
-        <button className="flex items-center py-4 px-6 font-poppins text-[12px] font-medium text-white bg-blue rounded-[10px] mr-5 md:text-[18px]">
+              <div className="flex">
+        <button className="flex items-center py-4 px-6 font-poppins text-[12px] font-medium text-white bg-blue rounded-[10px] md:text-[18px]">
           <img
             src={search}
             alt="search"
@@ -78,6 +77,7 @@ const Hero = () => (
           Search
         </button>
       </div>
+      </ul>
     </div>
   </section>
 );

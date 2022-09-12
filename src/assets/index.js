@@ -21,6 +21,8 @@ import play from "./play.png";
 import menu from "./menu.svg";
 import close from "./close.svg"
 import search  from "./search.svg";
+import left from "./left.svg"
+import right from "./right.svg"
 
 export {
   play,
@@ -46,4 +48,6 @@ export {
   menu,
   close,
   search,
+  left, 
+  right
 };
