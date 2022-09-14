@@ -1,6 +1,8 @@
-import React from 'react'
-import styles, {layout} from '../style'
-import angel from '../assets'
+import React from 'react';
+import styles, {layout} from '../style';
+import { angel } from '../assets';
+
+
 
 const Feedback = () => (
     <section className={`${styles.boxWidth} ${layout.section} ${styles.paddingX}`}>
