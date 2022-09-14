@@ -23,6 +23,7 @@ import close from "./close.svg"
 import search  from "./search.svg";
 import left from "./left.svg"
 import right from "./right.svg"
+import stars from "./stars.svg"
 
 export {
   play,
@@ -49,5 +50,6 @@ export {
   close,
   search,
   left, 
-  right
+  right,
+  stars
 };
