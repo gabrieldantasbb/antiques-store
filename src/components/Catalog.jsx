@@ -15,7 +15,7 @@ const Catalog = () => (
           alteration boisterous the attachment.
         </p>
       </div>
-      <div className="flex justify-self-end">
+      <div className="hidden md:flex md:justify-self-end">
         <div>
           <button type="button">
             <img src={left} alt="leftarrow" />

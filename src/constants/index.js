@@ -101,3 +101,60 @@ export const searches = [
         title: "Weapons"
     },
 ]
+
+export const resources = [
+    {
+        id: "download",
+        title: "Download"
+    },
+    {
+        id: "helpcenter",
+        title: "Help Center"
+    },
+    {
+        id: "guidebook",
+        title: "Guide Book"
+    },
+    {
+        id: "appdirectory",
+        title: "App Directory"
+    },
+]
+
+export const seboria = [
+    {
+        id: "whyseboria",
+        title: "Why Seboria"
+    },
+    {
+        id: "ourcollectionprocess",
+        title: "Our Collection Process"
+    },
+    {
+        id: "customerstories",
+        title: "Customer Stories"
+    },
+    {
+        id: "instagrampost",
+        title: "Instagram Post"
+    },
+]
+
+export const company = [
+    {
+        id: "antiques",
+        title: "Antiques"
+    },
+    {
+        id: "aboutseboria",
+        title: "About Seboria"
+    },
+    {
+        id: "success",
+        title: "Success"
+    },
+    {
+        id: "information",
+        title: "Information"
+    },
+]
