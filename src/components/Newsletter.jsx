@@ -3,7 +3,7 @@ import { radio, send } from "../assets";
 import styles from "../style";
 
 const Newsletter = () => (
-  <section className={`${styles.boxWidth} ${styles.paddingX} md:relative mt-10`}>
+  <section className={`${styles.paddingX} md:relative mt-10 md:ml-[10%] md:mr-[10%]`}>
   <div className="bg-blue rounded-3xl justify-center">
     <div className="flex flex-col-reverse md:flex-row md:w-full md:justify-between">
       <div className="self-center p-5 md:pl-20 py-[70px]">
